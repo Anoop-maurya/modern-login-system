@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="new.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="maindiv"> 
+            <div class="box1 Welcome">
+                <div class="content">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep contect with us please login with your personal info</p>
+                    <button class="sign-in">SIGN IN</button>
+                </div>
+            </div>
+            <div class="box1 upon-box1">
+                <div class="content">
+                    <h1>Hello friend!</h1>
+                    <p>Enter your personal details and start jouerny with us</p>
+                    <button class="sign-up">SIGN UP</button>
+                </div>
+            </div>
+            <div class="box2 account">
+                <h1 class="new-account">Create Account</h1>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>or use your email id for registration</p>
+                <form action="signup.php" method="post">
+                    <input type="text" placeholder="Name" name="username" required>
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="password" placeholder="password" name="password" required>
+                    <button class="sign-up" type="submit">SIGN UP</button>
+                </form>
+            </div>
+            <div class="box2 upon-box2">
+                <h1 class="new-account sign-in">Sign in</h1>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>or use your email id for registration</p>
+                <form action="login.php" method="post">
+                    <input type="email" placeholder="Email" name="useremail" required>
+                    <input type="password" placeholder="password" name="password" required>
+                    <p>Forget your password</p>
+                    <button class="sign-up" type="submit">SIGN in</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
